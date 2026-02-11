@@ -255,19 +255,6 @@ That report includes:
 - validated patchpoint path
 - recovery and reproducibility data
 
-## 12) Releasing and publishing updates
-
-For future updates:
-
-1. Update files in this repo.
-2. Refresh checksums:
-
-```bash
-( for f in *; do [ "$f" = "SHA256SUMS.txt" ] && continue; shasum -a 256 "$f"; done ) > SHA256SUMS.txt
-```
-
-3. Commit and push.
-
-## 13) Disclaimer
+## 12) Disclaimer
 
 This repository is intended for controlled engineering use on compatible systems with known recovery access. Validate behavior on non-production equipment first.
