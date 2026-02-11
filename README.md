@@ -5,6 +5,8 @@ Updated: 2026-02-11
 
 This repository contains a validated firmware patch bundle and deployment workflow for correcting GPS week-rollover date behavior on compatible Symmetricom XLi units.
 
+No replacement of the original GPS module is required for this firmware-based fix path.
+
 The package includes:
 
 - patched software image (`192-8001-branchstub-17da20-lencrc.bin`)
