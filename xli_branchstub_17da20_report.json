@@ -1,0 +1,27 @@
+{
+  "input": "192-8001V1_106.bin",
+  "output": "192-8001-branchstub-17da20-lencrc.bin",
+  "input_size": 1030808,
+  "output_size": 1025452,
+  "input_sha256": "15765c562ed4dce60fbe7d5eeb63153f5531d43c06690e6d25148744425bafbb",
+  "output_sha256": "ace2ccc1ea9a72d76a2f454363a84dcee8477c7a97a0c1576cbfbd6b0b29fa33",
+  "patch": {
+    "zlib_offset": 43009,
+    "payload_len": 2809624,
+    "payload_sha256_before": "42e216f3b47f911d1e98fbe4b30d82b0281b672379d078e9fbcbdaab12aa0e45",
+    "payload_sha256_after": "b2b36d65fe60545a26467c59537e9252cc44a47a8d5ba55b5bbda33f44be98e7",
+    "site_payload": "0x000b5d78",
+    "site_live": "0x000b6d78",
+    "site_before": "40301be5",
+    "site_branch_word": "0xea031b28",
+    "stub_payload": "0x0017ca20",
+    "stub_live": "0x0017da20",
+    "stub_back_branch_word": "0xeafce4d2",
+    "stub_len": 24,
+    "stub_bytes": "40301be508209fe5023083e0a4300be5d2e4fcea0000ea24"
+  },
+  "format": {
+    "declared_len": 1025448,
+    "trailer_crc32": "0xbcf48131"
+  }
+}
