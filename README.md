@@ -255,6 +255,11 @@ That report includes:
 - validated patchpoint path
 - recovery and reproducibility data
 
-## 12) Disclaimer
+## 12) Licensing
+
+- Original scripts/docs in this repository: `LICENSE` (MIT).
+- Vendor firmware binaries and proprietary blobs: `LICENSE-THIRD-PARTY` (excluded from MIT).
+
+## 13) Disclaimer
 
 This repository is intended for controlled engineering use on compatible systems with known recovery access. Validate behavior on non-production equipment first.

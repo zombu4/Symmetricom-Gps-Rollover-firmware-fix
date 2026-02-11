@@ -1,0 +1,30 @@
+Third-Party Firmware and Proprietary Materials Notice
+
+This repository contains a mix of:
+1) original project materials (scripts, documentation, metadata), and
+2) third-party firmware binaries and related proprietary payloads.
+
+Scope of MIT license
+- The MIT license in LICENSE applies ONLY to original project materials authored
+  for this repository (for example: deployment scripts, runbooks, and reports),
+  unless a file states otherwise.
+
+Excluded from MIT (no redistribution rights granted here)
+- Vendor firmware binaries and images are NOT relicensed by this repository.
+- No copyright license is granted here for any proprietary firmware content.
+- You are solely responsible for ensuring you have lawful rights to possess,
+  use, copy, or redistribute firmware artifacts.
+
+Typical excluded firmware artifacts in this repository include files such as:
+- `192-8001-branchstub-17da20-lencrc.bin`
+- `192-8001.bin`
+- `:192-8001.bin`
+- `192-8001V1_106.bin`
+- `192-8002V1_106.fs`
+- Any other vendor-supplied or vendor-derived firmware/image blobs.
+
+No warranty
+- All third-party materials are provided "AS IS" with no warranty.
+
+If you are a rights holder and believe material should be removed, contact the
+repository owner through GitHub.
